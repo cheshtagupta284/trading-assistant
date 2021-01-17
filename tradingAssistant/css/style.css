@@ -1,0 +1,34 @@
+.html {
+    scroll-behavior: smooth;
+}
+.card{
+    border-radius: 0.75rem;
+    transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    box-shadow:0 5px 5px rgba(0, 0, 0, 0.082);
+}
+.row{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.va{
+    vertical-align: middle;
+}
+.wrap {
+    background-color: rgba(240, 249, 255, 0.212);
+}
+.animate-bottom {
+    position: relative;
+    -webkit-animation-name: animateBottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animateBottom;
+    animation-duration: 1s;
+  }  
+  @-webkit-keyframes animateBottom {
+    from { bottom:-50px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }  
+  @keyframes animateBottom { 
+    from{ bottom:-50px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
